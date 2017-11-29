@@ -1,5 +1,5 @@
 /*div {
-	border: 1px solid black;
+	border: 1px solid red;
 }
 
 	
@@ -49,9 +49,12 @@ img {
 	transition: transform 0.5s ease-out;
 }
 
-
 	/* Header */
 
+
+.navbar {
+	height: 3.5rem;
+}
 
 .navbar-default .navbar-nav > .active > a {
 	background-color: inherit;
@@ -69,7 +72,21 @@ img {
 	/* Jumbotron */
 
 
-.jumbotron h1 {
+.jumbotron {
+  background-position: center;
+  background-size: cover;
+  padding: 11.85rem 0;
+  text-align: center;
+  margin-top: 3.5rem;
+  height: 45rem;
+}
+
+.jumbotron .text-container {
+	text-align: center;
+	width: 70rem;
+}
+
+.jumbotron .text-container h1 {
 	font-family: monoton;
 	font-size: 7.2rem;
 	color: white;
@@ -79,26 +96,12 @@ img {
 	1px 1px 0 #000;
 }
 
-.jumbotron p{
+.jumbotron .text-container p{
 	color: white;
 	text-shadow: -1px -1px 0 #000,
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;	
-}
-
-.jumbotron {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-size: cover;
-	margin-top: 3rem;
-}
-
-.jumbotron .text-container {
-	text-align: center;
-	width: 51.3rem;
-	margin: 11.85rem;
 }
 
 .jumbotron-bike {
